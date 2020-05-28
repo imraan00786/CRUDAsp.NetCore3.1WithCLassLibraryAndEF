@@ -1,6 +1,5 @@
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\package-lock.json
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.exe
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.deps.json
@@ -73,9 +72,6 @@ C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.Applica
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.dll
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.pdb
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.genruntimeconfig.cache
-C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\package.json
-C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\tsconfig.json
-C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\tslint.json
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\ClientApp\aurelia_project\aurelia.json
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\ClientApp\aurelia_project\generators\attribute.json
 C:\Users\h245444\Documents\Imran\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\ClientApp\aurelia_project\generators\binding-behavior.json
@@ -114,11 +110,7 @@ C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.Ap
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\ClientApp\package.json
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\ClientApp\tsconfig.json
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\ClientApp\tslint.json
-C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\package-lock.json
-C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\package.json
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\tsconfig.json
-C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\tslint.json
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.exe
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.deps.json
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.runtimeconfig.json
