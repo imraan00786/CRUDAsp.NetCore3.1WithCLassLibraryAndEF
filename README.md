@@ -1,6 +1,6 @@
 Aurelia Client APP integration with Asp.Net Core 3.1 APIs for CRUD Operations.
 
-This project developed on Asp.Net Core 3.1 using Web API, Standard class library and EF Core.
+This project developed on Asp.Net Core 3.1 using Web API, Standard class library and EF Core and client app in Aurelia framework.
 
 To run the project, please follow below steps.
 1. Aurelia client app need to be run independent.
