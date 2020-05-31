@@ -11,6 +11,6 @@ To run the project, please follow below steps.
 4. Run the project "Hahn.ApplicatonProcess.May2020.Web" in visual studio.
 5. Test the Add, Get, Update, And Delete operation in aurelia client app.
 
-
+Note: Aurelia client app is runs on http only, but if your browser redirect to https, please keep http to run the app, you can use different browser where setting is disabled for redirection to https.
 
 
