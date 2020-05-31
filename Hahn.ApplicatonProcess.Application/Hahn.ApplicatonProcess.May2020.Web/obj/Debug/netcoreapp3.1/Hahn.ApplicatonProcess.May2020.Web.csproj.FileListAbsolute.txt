@@ -172,9 +172,6 @@ C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.Ap
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.csprojAssemblyReference.cache
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.AssemblyInfoInputs.cache
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.AssemblyInfo.cs
-C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.csproj.CoreCompileInputs.cache
-C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.RazorTargetAssemblyInfo.cache
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.csproj.CopyComplete
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\staticwebassets\Hahn.ApplicatonProcess.May2020.Web.StaticWebAssets.Manifest.cache
@@ -182,3 +179,6 @@ C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.Ap
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.dll
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.pdb
 C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.genruntimeconfig.cache
+C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.csproj.CoreCompileInputs.cache
+C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\h245444\Documents\Imran\Repo\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.May2020.Web\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.May2020.Web.MvcApplicationPartsAssemblyInfo.cache

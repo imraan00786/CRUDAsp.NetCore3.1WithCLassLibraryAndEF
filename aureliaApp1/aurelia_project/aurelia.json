@@ -1,0 +1,52 @@
+{
+  "name": "aurelia-app-1",
+  "type": "project:application",
+  "paths": {
+    "root": "src",
+    "resources": "resources",
+    "elements": "resources/elements",
+    "attributes": "resources/attributes",
+    "valueConverters": "resources/value-converters",
+    "bindingBehaviors": "resources/binding-behaviors"
+  },
+  "transpiler": {
+    "id": "babel",
+    "fileExtension": ".js"
+  },
+  "build": {
+    "options": {
+      "server": "dev",
+      "extractCss": "prod",
+      "coverage": false
+    },
+    "bundles":[{
+      "name": "vendor-bundle.js",
+      "prepend": [
+        "node_modules/bluebird/js/browser/bluebird.core.js",
+        "node_modules/requirejs/require.js"
+      ],
+      "dependencies": [
+         "jquery",
+         {
+           "name": "bootstrap",
+           "path": "../node_modules/bootstrap/dist",
+           "main": "js/bootstrap.min",
+           "deps": ["jquery"],
+           "exports": "$",
+           "resources": [
+             "css/bootstrap.css"
+           ]
+         }
+      ]
+    }]
+  },
+  "platform": {
+    "hmr": false,
+    "open": false,
+    "port": 8080,
+    "host": "localhost",
+    "output": "dist"
+  },
+  
+  "packageManager": "npm"
+}

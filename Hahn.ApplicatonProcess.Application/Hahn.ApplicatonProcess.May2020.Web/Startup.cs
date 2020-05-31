@@ -16,6 +16,7 @@ using System.IO;
 using Hahn.ApplicatonProcess.May2020.Domain.Services;
 using Hahn.ApplicatonProcess.May2020.Data.DBContext;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 
 namespace Hahn.ApplicatonProcess.May2020.Web
 {
@@ -79,6 +80,21 @@ namespace Hahn.ApplicatonProcess.May2020.Web
                 //var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 //c.IncludeXmlComments(xmlPath);
             });
+            //builder.WithOrigins(Configuration["ClientApp:URL"].ToString())
+            var url = Configuration["ClientApp:URL"].ToString();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("HahnPolicy",
+                    builder =>
+                    {
+                        builder.WithOrigins(Configuration["ClientApp:URL"].ToString())
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod()
+                                            .AllowCredentials();
+                    });
+
+                
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -95,6 +111,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web
                 context.Database.EnsureCreated();
             }
 
+           
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
 
@@ -107,7 +124,9 @@ namespace Hahn.ApplicatonProcess.May2020.Web
 
             app.UseHttpsRedirection();
 
+           
             app.UseRouting();
+            app.UseCors("HahnPolicy");
 
             app.UseAuthorization();
 

@@ -2,6 +2,7 @@
 using Hahn.ApplicatonProcess.May2020.Domain.Services;
 using Hahn.ApplicatonProcess.May2020.Domain.Validations;
 using Hahn.ApplicatonProcess.May2020.Web.Helper;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -10,10 +11,11 @@ using System.Threading.Tasks;
 
 namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
 {
-	/// <summary>
-	/// ApplicantController
-	/// </summary>
-	[Route("api/[controller]")]
+    /// <summary>
+    /// ApplicantController
+    /// </summary>
+    [EnableCors("HahnPolicy")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ApplicantController : ControllerBase
     {
@@ -144,7 +146,7 @@ namespace Hahn.ApplicatonProcess.May2020.Web.Controllers
 		[ProducesResponseType(typeof(void), 500)]
 		[HttpPut("/api/applicants/{id}")]
         public async Task<IActionResult> UpdateApplicant(int id, 
-            Applicant applicant)
+            [FromBody]Applicant applicant)
         {
             try
             {

@@ -1,0 +1,98 @@
+<!-- first, we include the Bootstrap css, which was bundled as "css/bootstrap.css" -->
+
+<template>
+  <div class="container">
+    <h2><font color="green">Aurelia Client APP - Applicants</font></h2>   
+  
+      <table border="1">            
+        <tr>
+            <td>
+              
+                <table border="1">
+                    <tr>
+                        <td>Applicant Id</td>
+                        <td><input id="txtApplicantId" type="number" value.bind= "id" /></td>
+                    </tr>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input id="txtFirstName" type="text" value.bind= "firstName" /></td>
+                    </tr>
+                    <tr>
+                        <td>Family Name</td>
+                        <td><input id="txtFamilyName" type="text" value.bind= "familyName"/></td>
+                    </tr>
+                    <tr>
+                      <td>Age</td>
+                      <td><input id="txtAge" type="number" value.bind= "age"/></td>
+                  </tr>
+                  <tr>
+                    <td>Email Address</td>
+                    <td><input id="txtEmailAddress" type="email" value.bind= "emailAdress"/></td>
+                </tr>
+                    <tr>
+                        <td>Adress</td>
+                        <td><input id="txtAdress" type="text" value.bind= "adress"/></td>
+                    </tr>
+                    <tr>
+                      <td>Country Of Origin</td>
+                      <td><input id="txtCountryOfOrigin" type="text" value.bind= "countryOfOrigin"/></td>
+                  </tr>
+                </table>                           
+            </td>
+        </tr>
+    </table>
+  <table border="1">
+  <tr>
+      <td><input type="button" id="btnInsert" class="btn btn-primary" value="Add Applicant" click.delegate = "insertApplicant()"/></td>
+      <td>
+          <input type="button" id="btnUpdate" class="btn btn-primary" value="Update Applicant" click.delegate = "updateApplicant()"/>
+          <input type="button" id="btnDelete" class="btn btn-primary" value="Clear Data" click.delegate = "cleanApplication()"/>
+      </td>
+  </tr>
+  </table>
+  <br />
+  
+  
+   <div class="col-md-12">
+    <h3>Applicant List</h3>   
+  </div>
+
+    
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First Name</th>
+          <th scope="col">Family Name</th>
+          <th scope="col">Age</th>
+          <th scope="col">Email Address</th>
+          <th scope="col">Adress</th>
+          <th scope="col">Country Of Origin</th>
+          <th scope="col">Edit</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr repeat.for="applicant of applicantRecords">    
+          <td  scope="row">${applicant.id}</td> 
+          <td>${applicant.firstName}</td>
+          <td>${applicant.familyName}</td> 
+          <td>${applicant.age}</td>
+          <td>${applicant.emailAdress}</td>
+          <td>${applicant.adress}</td> 
+          <td>${applicant.countryOfOrigin}</td>
+          <td>
+            <button class="btn btn-primary" click.delegate="selectedRow(applicant)">Edit</button>
+          </td>
+          <td>
+            <button class="btn btn-primary" click.delegate = "deleteApplicant(applicant.id)">Delete</button>
+          </td>
+        </tr>
+       
+      </tbody>
+    </table>
+
+    </div>
+
+    </template>
