@@ -13,4 +13,9 @@ To run the project, please follow below steps.
 
 Note: Aurelia client app is runs on http only, but if your browser redirect to https, please keep http to run the app, you can use different browser where setting is disabled for redirection to https.
 
-
+1. In web api project need to set the url of aurelia client app for handling CORS. If aurelia app runs in any other port than 8080, please set the url in appsettings.json of the project "Hahn.ApplicatonProcess.May2020.Web", below is the setting key to find.
+   "ClientApp": {
+    "URL": "http://localhost:8080"
+  }
+  
+2. Find the web api url after running the project and set the url into aurelia client app for service call in below path.
