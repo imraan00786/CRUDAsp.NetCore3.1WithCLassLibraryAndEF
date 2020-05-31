@@ -19,3 +19,5 @@ Note: Aurelia client app is runs on http only, but if your browser redirect to h
   }
   
 2. Find the web api url after running the project and set the url into aurelia client app for service call in below path.
+   Path: aureliaApp1/src/app.js
+   In app.js file replace the new url with existing url ("https://localhost:44321"), if web api url get changes after running the project.
